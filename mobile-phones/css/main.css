@@ -67,7 +67,6 @@ main a:hover {
 
 /* Center a paragraph vertically in the row*/
 @media (min-width: 992px) {
-
     main [class^="col"]>p {
         position: absolute;
         top: 50%;
