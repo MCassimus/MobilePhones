@@ -28,6 +28,7 @@ h4,
 h5,
 h6 {
     color: #af4949;
+    padding: 1em;
     font-family: 'Montserrat';
 }
 
@@ -56,4 +57,26 @@ main a:hover {
 
 .fa-apple {
     color: black;
+}
+
+/* Column specific styles */
+
+[class^="col"] img {
+    width: 100%;
+}
+
+/* Center a paragraph vertically in the row*/
+@media (min-width: 992px) {
+
+    main [class^="col"]>p {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 992px) {
+    main [class^="col"]>p {
+        padding: 1em;
+    }
 }
