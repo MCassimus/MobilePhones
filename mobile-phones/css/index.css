@@ -1,0 +1,19 @@
+/* Symbols Styling */
+
+.noCross::after {
+    color: red;
+    font-size: 1.5em;
+    content: '\2715';
+}
+
+.yesCheck::after {
+    color: green;
+    font-size: 1.5em;
+    content: '\2714';
+}
+
+/* Font Awesome Styling */
+
+table .fa {
+    font-size: 2.5em;
+}
