@@ -49,9 +49,6 @@ main a:hover {
 .fa {
     font-size: 1.5em;
     margin: .5em;
-}
-
-.fa-home {
     color: black;
 }
 
@@ -68,6 +65,9 @@ main a:hover {
 
 [class^="col"] img {
     width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Center a paragraph vertically in the row*/
