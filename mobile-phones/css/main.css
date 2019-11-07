@@ -51,13 +51,18 @@ main a:hover {
     margin: .5em;
 }
 
+.fa-home {
+    color: black;
+}
+
 .fa-android {
     color: #7AE000;
 }
 
 .fa-apple {
-    color: black;
+    color: white;
 }
+
 
 /* Column specific styles */
 
