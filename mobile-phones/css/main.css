@@ -52,6 +52,17 @@ main a:hover {
     color: black;
 }
 
+
+.fa-github {
+    font-size: 2.5em;
+    color: white;
+}
+
+
+.fa-github:hover {
+    color: purple;
+}
+
 .fa-android {
     color: #7AE000;
 }
